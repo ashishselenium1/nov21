@@ -2,12 +2,12 @@
 <testng-results skipped="4" failed="1" ignored="0" total="7" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Portfolio Suite" duration-ms="133201" started-at="2021-11-24T08:16:30 IST" finished-at="2021-11-24T08:18:43 IST">
+  <suite name="Portfolio Suite" duration-ms="70350" started-at="2021-11-24T08:33:24 IST" finished-at="2021-11-24T08:34:34 IST">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="17379" started-at="2021-11-24T08:16:30 IST" finished-at="2021-11-24T08:16:47 IST">
+    <test name="Login Test" duration-ms="17033" started-at="2021-11-24T08:33:24 IST" finished-at="2021-11-24T08:33:41 IST">
       <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest">
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="234" started-at="2021-11-24T08:16:31 IST" finished-at="2021-11-24T08:16:31 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="279" started-at="2021-11-24T08:33:26 IST" finished-at="2021-11-24T08:33:27 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="8867" started-at="2021-11-24T08:16:31 IST" data-provider="getData" finished-at="2021-11-24T08:16:40 IST">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="6615" started-at="2021-11-24T08:33:27 IST" data-provider="getData" finished-at="2021-11-24T08:33:33 IST">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="7085" started-at="2021-11-24T08:16:40 IST" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="7859" started-at="2021-11-24T08:33:33 IST" finished-at="2021-11-24T08:33:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:16:47 IST" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="3" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:33:41 IST">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="1" started-at="2021-11-24T08:16:47 IST" data-provider="getData" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="0" started-at="2021-11-24T08:33:41 IST" data-provider="getData" finished-at="2021-11-24T08:33:41 IST">
           <params>
             <param index="0">
               <value>
@@ -128,11 +128,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="55" started-at="2021-11-24T08:16:47 IST" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="20" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:33:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:16:47 IST" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:33:41 IST">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="1" started-at="2021-11-24T08:16:47 IST" data-provider="getData" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="doLogin" duration-ms="1" started-at="2021-11-24T08:33:41 IST" data-provider="getData" finished-at="2021-11-24T08:33:41 IST">
           <params>
             <param index="0">
               <value>
@@ -188,15 +188,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="19" started-at="2021-11-24T08:16:47 IST" finished-at="2021-11-24T08:16:47 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest@4566e5bd]" name="quit" is-config="true" duration-ms="52" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:33:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest -->
     </test> <!-- Login Test -->
-    <test name="Create Portfolio" duration-ms="103520" started-at="2021-11-24T08:16:47 IST" finished-at="2021-11-24T08:18:31 IST">
+    <test name="Create Portfolio" duration-ms="30538" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:34:12 IST">
       <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest">
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:16:48 IST" finished-at="2021-11-24T08:16:48 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:33:41 IST" finished-at="2021-11-24T08:33:41 IST">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="createPortfolio" duration-ms="101217" started-at="2021-11-24T08:16:48 IST" data-provider="getData" finished-at="2021-11-24T08:18:29 IST">
+        <test-method status="PASS" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="createPortfolio" duration-ms="27988" started-at="2021-11-24T08:33:41 IST" data-provider="getData" finished-at="2021-11-24T08:34:09 IST">
           <params>
             <param index="0">
               <value>
@@ -218,11 +218,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPortfolio -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="quit" is-config="true" duration-ms="2173" started-at="2021-11-24T08:18:29 IST" finished-at="2021-11-24T08:18:31 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="quit" is-config="true" duration-ms="2380" started-at="2021-11-24T08:34:09 IST" finished-at="2021-11-24T08:34:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:18:31 IST" finished-at="2021-11-24T08:18:31 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:34:12 IST" finished-at="2021-11-24T08:34:12 IST">
           <params>
             <param index="0">
               <value>
@@ -233,7 +233,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="createPortfolio" duration-ms="1" started-at="2021-11-24T08:18:31 IST" data-provider="getData" finished-at="2021-11-24T08:18:31 IST">
+        <test-method status="SKIP" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="createPortfolio" duration-ms="0" started-at="2021-11-24T08:34:12 IST" data-provider="getData" finished-at="2021-11-24T08:34:12 IST">
           <params>
             <param index="0">
               <value>
@@ -278,26 +278,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPortfolio -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="quit" is-config="true" duration-ms="21" started-at="2021-11-24T08:18:31 IST" finished-at="2021-11-24T08:18:31 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest@4e1d422d]" name="quit" is-config="true" duration-ms="14" started-at="2021-11-24T08:34:12 IST" finished-at="2021-11-24T08:34:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest -->
     </test> <!-- Create Portfolio -->
-    <test name="Delete Portfolio" duration-ms="12185" started-at="2021-11-24T08:18:31 IST" finished-at="2021-11-24T08:18:43 IST">
+    <test name="Delete Portfolio" duration-ms="22708" started-at="2021-11-24T08:34:12 IST" finished-at="2021-11-24T08:34:34 IST">
       <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest">
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:18:31 IST" finished-at="2021-11-24T08:18:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@43814d18]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="createPortfolio" duration-ms="9680" started-at="2021-11-24T08:18:31 IST" data-provider="getData" finished-at="2021-11-24T08:18:41 IST">
+        <test-method status="PASS" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="createPortfolio" duration-ms="20715" started-at="2021-11-24T08:34:12 IST" data-provider="getData" finished-at="2021-11-24T08:34:33 IST">
           <params>
             <param index="0">
               <value>
@@ -308,11 +297,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPortfolio -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="quit" is-config="true" duration-ms="2351" started-at="2021-11-24T08:18:41 IST" finished-at="2021-11-24T08:18:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="init" is-config="true" duration-ms="1" started-at="2021-11-24T08:18:43 IST" finished-at="2021-11-24T08:18:43 IST">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="init" is-config="true" duration-ms="0" started-at="2021-11-24T08:34:12 IST" finished-at="2021-11-24T08:34:12 IST">
           <params>
             <param index="0">
               <value>
@@ -323,11 +308,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="quit" is-config="true" duration-ms="37" started-at="2021-11-24T08:18:43 IST" finished-at="2021-11-24T08:18:43 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="quit" is-config="true" duration-ms="1917" started-at="2021-11-24T08:34:33 IST" finished-at="2021-11-24T08:34:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="createPortfolio" duration-ms="0" started-at="2021-11-24T08:18:43 IST" data-provider="getData" finished-at="2021-11-24T08:18:43 IST">
+        <test-method status="SKIP" signature="createPortfolio(java.util.Hashtable)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="createPortfolio" duration-ms="1" started-at="2021-11-24T08:34:34 IST" data-provider="getData" finished-at="2021-11-24T08:34:34 IST">
           <params>
             <param index="0">
               <value>
@@ -372,6 +357,21 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPortfolio -->
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="init" is-config="true" duration-ms="0" started-at="2021-11-24T08:34:34 IST" finished-at="2021-11-24T08:34:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43814d18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest@5383967b]" name="quit" is-config="true" duration-ms="20" started-at="2021-11-24T08:34:34 IST" finished-at="2021-11-24T08:34:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest -->
     </test> <!-- Delete Portfolio -->
   </suite> <!-- Portfolio Suite -->
