@@ -1,0 +1,6 @@
+com\core\qtpselenium\ddf\testcases\suite\stock\AddStockTest.class
+com\core\qtpselenium\ddf\testcases\suite\portfolio\CreatePortfolioTest.class
+com\core\qtpselenium\ddf\testcases\suite\stock\SellStockTest.class
+com\core\qtpselenium\ddf\testcases\base\TestBase.class
+com\core\qtpselenium\ddf\testcases\suite\portfolio\LoginTest.class
+com\core\qtpselenium\ddf\testcases\suite\portfolio\DeletePortfolioTest.class

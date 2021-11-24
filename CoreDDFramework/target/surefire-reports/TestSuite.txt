@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 134.388 s <<< FAILURE! - in TestSuite
+com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest.doLogin  Time elapsed: 8.879 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Titles did not match for login page
+	at com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest.doLogin(LoginTest.java:48)
+

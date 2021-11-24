@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Portfolio Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="doLogin" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Create Portfolio(failed)">
+    <classes>
+      <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest">
+        <methods>
+          <include name="init"/>
+          <include name="createPortfolio" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.CreatePortfolioTest -->
+    </classes>
+  </test> <!-- Create Portfolio(failed) -->
+  <test thread-count="5" name="Delete Portfolio(failed)">
+    <classes>
+      <class name="com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest">
+        <methods>
+          <include name="init"/>
+          <include name="createPortfolio" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.core.qtpselenium.ddf.testcases.suite.portfolio.DeletePortfolioTest -->
+    </classes>
+  </test> <!-- Delete Portfolio(failed) -->
+</suite> <!-- Failed suite [Portfolio Suite] -->

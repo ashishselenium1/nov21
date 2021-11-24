@@ -1,0 +1,4 @@
+# Created at 2021-11-24T08:16:28.787
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Whizdom Trainings\Online Training Workspace\CoreDDFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

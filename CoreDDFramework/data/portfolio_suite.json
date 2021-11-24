@@ -1,0 +1,117 @@
+{
+  "company": "ABC company",
+  "testdata": [
+    {
+      "testname": "Login Test",
+      "testcasedata": [
+        {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "Y"
+            },
+            {
+              "parametername": "Username",
+              "parametervalue": "ashishthakur1983"
+            },
+            {
+              "parametername": "Password",
+              "parametervalue": "pass@1234"
+            }
+          ]
+        },
+        {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "N"
+            },
+            {
+              "parametername": "Username",
+              "parametervalue": "ashishthakur1983"
+            },
+            {
+              "parametername": "Password",
+              "parametervalue": "pass@1234"
+            }
+          ]
+        },
+         {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "N"
+            },
+            {
+              "parametername": "Username",
+              "parametervalue": "xyz"
+            },
+            {
+              "parametername": "Password",
+              "parametervalue": "abc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "testname": "Create Portfolio",
+           "testcasedata": [
+        {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "Y"
+            },
+            {
+              "parametername": "Portfolio Name",
+              "parametervalue": "Test Portfolio 1"
+            }
+          ]
+        },
+        {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "N"
+            },
+            {
+              "parametername": "Portfolio Name",
+              "parametervalue": "Test Portfolio 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "testname": "Delete Portfolio",
+           "testcasedata": [
+            {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "Y"
+            },
+            {
+              "parametername": "Portfolio Name",
+              "parametervalue": "Test Portfolio 1"
+            }
+          ]
+        },
+        {
+          "parameters": [
+            {
+              "parametername": "Runmode",
+              "parametervalue": "N"
+            },
+            {
+              "parametername": "Portfolio Name",
+              "parametervalue": "Test Portfolio 2"
+            }
+          ]
+        }
+             ]
+ 
+    }
+  ]
+}
